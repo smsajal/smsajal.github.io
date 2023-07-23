@@ -53,6 +53,7 @@ p.lead {
     font-size: 1.5rem
 }
 
+
 .social-icons a {
     display: inline-block;
     height: 3.5rem;
@@ -197,4 +198,16 @@ a:active,
 a:focus,
 a:hover {
     color: #1565C0
+}
+
+.paper-authors {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 1.25rem
+}
+
+p.paper-venue {
+    font-size: 1.20rem;
+    font-weight: 400
 }
