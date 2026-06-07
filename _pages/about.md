@@ -22,6 +22,8 @@ announcements:
 
 latest_posts:
   enabled: false
+  scrollable: true
+  limit: 3
 ---
 
 I am a Performance Engineer at [NetApp](https://www.netapp.com/), where I work on feature performance engineering and research prototyping for the [AI Data Engine (AIDE)](https://www.netapp.com/artificial-intelligence/). Previously, I was a Performance and Capacity Engineer at [Meta](https://about.meta.com/), where I worked on AI inference and training infrastructure and hardware power budget optimization.
