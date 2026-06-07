@@ -61,9 +61,22 @@ if (/gem 'al_math',\s*:git =>/.test(gemfile)) {
   failures.push("`Gemfile` must not use git-branch pin for `al_math`; use released gem version.");
 }
 
-for (const forbiddenPath of ["_includes", "_layouts", "_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
+for (const forbiddenPath of ["_includes", "_layouts", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
   if (exists(forbiddenPath)) {
     failures.push(`Starter must not own core component path \`${forbiddenPath}\`; move ownership to the corresponding gem.`);
+  }
+}
+
+// _sass is allowed only when it contains documented user-override files (_themes.scss, _variables.scss).
+// Presence of any other file indicates accidental gem-core ownership.
+if (exists("_sass")) {
+  const allowedSassOverrides = new Set(["_themes.scss", "_variables.scss"]);
+  const sassFiles = fs.readdirSync(path.join(root, "_sass"));
+  const disallowed = sassFiles.filter((f) => !allowedSassOverrides.has(f));
+  if (disallowed.length > 0) {
+    failures.push(
+      `Starter \`_sass\` must contain only user-override files (_themes.scss, _variables.scss); found unexpected: ${disallowed.join(", ")}.`
+    );
   }
 }
 
