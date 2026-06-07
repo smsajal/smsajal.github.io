@@ -1,0 +1,73 @@
+---
+---
+
+@inproceedings{sajal2026powersloshing,
+  abbr        = {ISCA},
+  title       = {Power Sloshing: Managing AI Inference Power Variability at Data Center Scale},
+  author      = {Sajal, Sultan Mahmud and others},
+  booktitle   = {Proceedings of the 53rd Annual International Symposium on Computer Architecture (ISCA)},
+  year        = {2026},
+  note        = {To Appear},
+  selected    = {false},
+  abstract    = {Managing power variability in large-scale AI inference workloads presents unique challenges at data center scale. This work addresses the problem of power sloshing — the rapid fluctuation of power consumption across AI inference clusters — and proposes mechanisms to stabilize and optimize power budgets across hardware.}
+}
+
+@article{sajal2025tracescaler,
+  abbr         = {ACM TOCS},
+  title        = {TraceScaler: A Framework for Scaling Load in Real-World Traces for System Evaluation},
+  author       = {Sajal, Sultan Mahmud and Estyak, Md Salman and Hasan, Rubaba and Zhu, Timothy and Urgaonkar, Bhuvan and Sen, Siddhartha},
+  journal      = {ACM Transactions on Computer Systems},
+  year         = {2025},
+  publisher    = {ACM},
+  doi          = {10.1145/3729282},
+  selected     = {true},
+  bibtex_show  = {true},
+  abstract     = {Trace-driven evaluation is a cornerstone of systems research, but real-world traces rarely match the load levels needed for stress-testing or capacity planning. TraceScaler is a unified framework that subsumes and extends prior trace scaling techniques (TraceSplitter and TraceUpscaler), providing practitioners a single tool to scale traces to arbitrary load levels while preserving statistical fidelity.},
+  note         = {Invited paper}
+}
+
+@inproceedings{sajal2024traceupscaler,
+  abbr         = {EuroSys},
+  title        = {TraceUpscaler: Upscaling Traces to Evaluate Systems at High Load},
+  author       = {Sajal, Sultan Mahmud and Zhu, Timothy and Urgaonkar, Bhuvan and Sen, Siddhartha},
+  booktitle    = {Proceedings of the 19th European Conference on Computer Systems (EuroSys)},
+  year         = {2024},
+  publisher    = {ACM},
+  doi          = {10.1145/3627703.3629566},
+  pdf          = {/assets/pdf/eurosys24-traceupscaler.pdf},
+  slides       = {/assets/pdf/eurosys24-traceupscaler-slides.pdf},
+  award        = {Best Paper Runner-Up Award},
+  award_name   = {Best Paper Runner-Up},
+  selected     = {true},
+  bibtex_show  = {true},
+  abstract     = {Evaluating systems under high load requires traces that capture realistic request patterns at scale. TraceUpscaler addresses the challenge of upscaling real-world traces — increasing their load level while preserving the statistical properties of the original trace — enabling more faithful stress-testing and capacity planning without requiring new trace collection campaigns.}
+}
+
+@inproceedings{sajal2023kerveros,
+  abbr         = {OSDI},
+  title        = {Kerveros: Efficient and Scalable Cloud Admission Control},
+  author       = {Sajal, Sultan Mahmud and Marshall, Luke and Li, Beibin and Zhou, Shandan and Pan, Abhisek and Mellou, Konstantina and Narayanan, Deepak and Zhu, Timothy and Dion, David and Moscibroda, Thomas and Menache, Ishai},
+  booktitle    = {Proceedings of the 17th USENIX Symposium on Operating Systems Design and Implementation (OSDI)},
+  year         = {2023},
+  publisher    = {USENIX Association},
+  pdf          = {/assets/pdf/osdi23-sajal.pdf},
+  slides       = {/assets/pdf/osdi23_slides_sajal.pdf},
+  selected     = {true},
+  bibtex_show  = {true},
+  abstract     = {Cloud admission control must balance service guarantees against cluster utilization, at the scale of millions of requests per second across heterogeneous hardware. Kerveros is an admission control system deployed in Azure production that achieves high utilization while providing strong latency guarantees, using a novel combination of request classification and feedback-driven admission policies.},
+  note         = {Deployed in Azure production}
+}
+
+@inproceedings{sajal2021tracesplitter,
+  abbr         = {EuroSys},
+  title        = {TraceSplitter: A New Paradigm for Downscaling Traces},
+  author       = {Sajal, Sultan Mahmud and Hasan, Rubaba and Zhu, Timothy and Urgaonkar, Bhuvan and Sen, Siddhartha},
+  booktitle    = {Proceedings of the 16th European Conference on Computer Systems (EuroSys)},
+  year         = {2021},
+  publisher    = {ACM},
+  doi          = {10.1145/3447786.3456249},
+  pdf          = {/assets/pdf/tracesplitter-eurosys21.pdf},
+  selected     = {true},
+  bibtex_show  = {true},
+  abstract     = {Trace-driven evaluation often requires running experiments at smaller scale than the original production system, yet existing downscaling approaches distort the statistical properties of traces in ways that undermine experimental validity. TraceSplitter introduces a new paradigm for downscaling cloud workload traces that provably preserves key statistical properties, enabling faithful small-scale experiments.}
+}

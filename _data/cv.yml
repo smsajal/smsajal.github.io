@@ -1,0 +1,151 @@
+cv:
+  name: Sultan Mahmud Sajal
+  label: Performance Engineer & Systems Researcher
+  email: smsajal116@gmail.com
+  location: San Jose, CA
+  image: ""
+  summary: >
+    Performance Engineer at NetApp and Systems Researcher with a Ph.D. from Penn State.
+    I design and study systems that run at cloud scale — from AI inference infrastructure
+    at Meta to trace-driven evaluation tools deployed in Azure production.
+
+  social_networks:
+    - network: LinkedIn
+      username: sultan-mahmud-sajal-919287196
+    - network: GitHub
+      username: smsajal
+    - network: X
+      username: SajalSultan
+
+  sections:
+    Education:
+      - institution: Pennsylvania State University
+        location: University Park, PA
+        url: https://www.psu.edu/
+        area: Computer Science and Engineering
+        studyType: Ph.D.
+        start_date: 2018-08
+        end_date: 2024-05
+        highlights:
+          - "Dissertation: Improving the Fidelity of Trace-Driven Experiments in Cloud Computing Systems"
+          - "Advisors: Prof. Timothy Zhu and Prof. Bhuvan Urgaonkar"
+          - Published at OSDI, EuroSys (×2), and ACM TOCS
+
+      - institution: Bangladesh University of Engineering and Technology (BUET)
+        location: Dhaka, Bangladesh
+        url: https://www.buet.ac.bd/
+        area: Computer Science and Engineering
+        studyType: B.Sc.
+        start_date: 2013-02
+        end_date: 2017-09
+        highlights:
+          - Technical Scholarship recipient
+
+    Experience:
+      - company: NetApp
+        position: Performance Engineer
+        location: San Jose, CA
+        url: https://www.netapp.com/
+        start_date: 2026-01
+        end_date: present
+        highlights:
+          - Feature performance engineering for Core Storage Systems
+          - Research and prototyping for the AI Data Engine (AIDE)
+
+      - company: Meta Platforms, Inc.
+        position: Performance and Capacity Engineer
+        location: Menlo Park, CA
+        url: https://about.meta.com/
+        start_date: 2024-05
+        end_date: 2026-01
+        highlights:
+          - AI inference and training infrastructure performance
+          - Hardware power budget optimization at fleet scale
+
+      - company: Cloud Operations Research (CORE), Microsoft Research
+        position: Research Intern
+        location: Redmond, WA
+        url: https://www.microsoft.com/en-us/research/
+        start_date: 2022-05
+        end_date: 2022-08
+        highlights:
+          - Co-authored Kerveros (OSDI 2023), deployed in Azure production
+
+      - company: Gray Systems Lab (GSL), Microsoft
+        position: Research Intern
+        location: Redmond, WA
+        url: https://www.microsoft.com/en-us/research/
+        start_date: 2021-05
+        end_date: 2021-08
+        highlights:
+          - Research on trace-driven evaluation for cloud systems
+
+      - company: Pennsylvania State University
+        position: Research & Teaching Assistant
+        location: University Park, PA
+        url: https://www.psu.edu/
+        start_date: 2018-08
+        end_date: 2024-05
+        highlights:
+          - Research on cloud systems evaluation methodology
+          - Teaching assistant for undergraduate systems courses
+
+      - company: Reve Systems
+        position: Junior Software Engineer
+        location: Dhaka, Bangladesh
+        start_date: 2017-10
+        end_date: 2018-07
+
+    Awards:
+      - title: Best Paper Runner-Up Award
+        awarder: EuroSys 2024
+        date: 2024-04
+        summary: Awarded for TraceUpscaler at the 19th ACM European Conference on Computer Systems (acceptance rate ~17%)
+
+      - title: Student Grant
+        awarder: EuroSys 2024
+        date: 2024-04
+
+      - title: Student Grant
+        awarder: USENIX OSDI 2023
+        date: 2023-07
+
+      - title: Student Grant
+        awarder: USENIX OSDI 2020
+        date: 2020-11
+
+      - title: Registration Grant
+        awarder: ACM SIGMETRICS 2020
+        date: 2020-06
+
+      - title: Student Travel Grant
+        awarder: ACM Symposium on Cloud Computing (SoCC)
+        date: 2019-11
+
+      - title: Student Travel Grant
+        awarder: ACM Symposium on Cloud Computing (SoCC)
+        date: 2018-10
+
+      - title: Technical Scholarship
+        awarder: Bangladesh University of Engineering and Technology
+        date: 2013
+
+    Skills:
+      - name: Systems & Infrastructure
+        icon: fa-solid fa-server
+        keywords: "Performance Engineering, Distributed Systems, Cloud Computing, AI/ML Infrastructure, Storage Systems"
+
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "C, C++, Python, Java, Bash"
+
+      - name: Tools & Platforms
+        icon: fa-solid fa-wrench
+        keywords: "Linux, Docker, Git, Perf, DTrace, Flamegraphs"
+
+    Languages:
+      - name: English
+        summary: "Fluent"
+
+      - name: Bengali
+        summary: "Native speaker"
