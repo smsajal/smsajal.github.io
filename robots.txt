@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://smsajal.github.io/sitemap.xml
