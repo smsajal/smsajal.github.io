@@ -1,0 +1,15 @@
+// Override al-folio default purple (#b509ac) with steel blue (#1565c0)
+
+$theme-color: #1565c0;
+$theme-color-dark: #64b5f6; // lighter blue for dark mode readability
+
+:root {
+  --global-theme-color: #{$theme-color};
+  --global-hover-color: #{$theme-color};
+  --global-hover-text-color: #fff;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #{$theme-color-dark};
+  --global-hover-color: #{$theme-color-dark};
+}
