@@ -6,7 +6,7 @@ subtitle: Performance Engineer at <a href="https://www.netapp.com/" target="_bla
 
 profile:
   align: right
-  image: profile.jpg
+  image: smsajal-2.JPG
   image_circular: false
   more_info: >
     <p>San Jose, CA</p>
