@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Peer-reviewed publications by Sultan Mahmud Sajal, in reverse chronological order. h-index&#58; 3 · ~30 citations (Google Scholar).
+description: Peer-reviewed publications by Sultan Mahmud Sajal, in reverse chronological order. Also on <a href="https://scholar.google.com/citations?user=OSsemicAAAAJ" target="_blank">Google Scholar</a>.
 nav: true
 nav_order: 2
 ---
