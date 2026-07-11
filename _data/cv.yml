@@ -49,8 +49,7 @@ cv:
         start_date: 2026-01
         end_date: present
         highlights:
-          - Feature performance engineering for Core Storage Systems
-          - Research and prototyping for the AI Data Engine (AIDE)
+          - Optimizing performance of AIDE (AI Data Engine), a distributed platform for ingesting, cataloging, and serving enterprise storage data for AI workloads
 
       - company: Meta Platforms, Inc.
         position: Performance and Capacity Engineer
@@ -59,8 +58,14 @@ cv:
         start_date: 2024-05
         end_date: 2026-01
         highlights:
-          - AI inference and training infrastructure performance
-          - Hardware power budget optimization at fleet scale
+          - Optimized rack power budgets for multiple AI-inference hardware programs, yielding $100M/year in data-center OpEx savings and a standardized budget-optimization framework across Meta's AI infrastructure hardware programs
+          - Drove cross-functional work to raise the power limit of GPUs used by recommendation services, cutting required GPU capacity by 7% with no increase in power budget ($400k/year benefit)
+          - Delivered power budget for flash-storage racks providing 7.3 EB of storage to support GenAI training
+          - Delivered power budget for flash-storage racks providing 9.9 EB of storage to support MySQL and other services
+          - Redesigned the Power Sufficiency Simulator pipeline, increasing input accuracy and reducing Thrift service dependencies by 77%
+          - Created a machine-level power-estimation methodology for power-capped machines, improving power-capping efficiency by 11% or reducing overage risk by 0.15%, depending on the scenario
+          - Developed a technique to estimate power at the power-device level from host-level metrics, reaching 99%+ accuracy and eliminating 0.9%-6% estimation error across power-device types
+          - Improved idle-host power-usage estimation accuracy by up to 31%, strengthening rack-level budget planning
 
       - company: Cloud Operations Research (CORE), Microsoft Research
         position: Research Intern
@@ -69,7 +74,7 @@ cv:
         start_date: 2022-05
         end_date: 2022-08
         highlights:
-          - Co-authored Kerveros (OSDI 2023), deployed in Azure production
+          - Designed Kerveros, a novel Azure admission-control system reaching 95%+ utilization at 99.9%+ availability in production; deployed in Azure and published at OSDI 2023
 
       - company: Gray Systems Lab (GSL), Microsoft
         position: Research Intern
@@ -78,7 +83,7 @@ cv:
         start_date: 2021-05
         end_date: 2021-08
         highlights:
-          - Research on trace-driven evaluation for cloud systems
+          - Built realistic Azure HDInsight benchmarks by reconstructing Spark workloads from query traces; generated privacy-preserving synthetic datasets
 
       - company: Pennsylvania State University
         position: Research & Teaching Assistant
@@ -87,14 +92,17 @@ cv:
         start_date: 2018-08
         end_date: 2024-05
         highlights:
-          - Research on cloud systems evaluation methodology
-          - Teaching assistant for undergraduate systems courses
+          - Research on cloud-systems evaluation methodology (publications at EuroSys 2024 and 2021)
+          - Teaching assistant for multiple undergraduate courses
 
       - company: Reve Systems
         position: Junior Software Engineer
         location: Dhaka, Bangladesh
         start_date: 2017-10
         end_date: 2018-07
+        highlights:
+          - Prototyped a machine-translation system supporting Bangla and 25 additional languages
+          - Built a Bangla NLP platform prototype (machine translator, spell checker, and more)
 
     Awards:
       - title: Best Paper Runner-Up Award
@@ -115,8 +123,8 @@ cv:
         date: 2020-11
 
       - title: Registration Grant
-        awarder: ACM SIGMETRICS 2020
-        date: 2020-06
+        awarder: ACM SIGMETRICS 2021
+        date: 2021
 
       - title: Student Travel Grant
         awarder: ACM Symposium on Cloud Computing (SoCC)
@@ -131,17 +139,33 @@ cv:
         date: 2013
 
     Skills:
-      - name: Systems & Infrastructure
+      - name: Specialized Areas
         icon: fa-solid fa-server
-        keywords: "Performance Engineering, Distributed Systems, Cloud Computing, AI/ML Infrastructure, Storage Systems"
+        keywords: "Distributed Systems, Systems Benchmarking, Power Budget Optimization, Performance Analysis"
 
-      - name: Programming
+      - name: Languages
         icon: fa-solid fa-code
-        keywords: "C, C++, Python, Java, Bash"
+        keywords: "Python, Java, C++, Scala, R"
 
-      - name: Tools & Platforms
+      - name: Frameworks & Tools
         icon: fa-solid fa-wrench
-        keywords: "Linux, Docker, Git, Perf, DTrace, Flamegraphs"
+        keywords: "Pandas, Apache Spark, Docker, Kubernetes, Git"
+
+      - name: Cloud Platforms
+        icon: fa-solid fa-cloud
+        keywords: "AWS, Azure"
+
+      - name: Web & DevOps
+        icon: fa-solid fa-network-wired
+        keywords: "Nginx, Varnish, Memcached"
+
+      - name: Databases
+        icon: fa-solid fa-database
+        keywords: "MySQL, PostgreSQL, Presto"
+
+      - name: Scripting & Markup
+        icon: fa-solid fa-terminal
+        keywords: "Bash, LaTeX, HTML/CSS"
 
     Languages:
       - name: English
