@@ -4,22 +4,26 @@ permalink: /skills/
 title: Skills
 nav: true
 nav_order: 4
-description: Technical skills across systems, programming, and tooling.
+description: Technical skills across systems, cloud, and tooling.
 ---
 
-## Systems &amp; Infrastructure
+**Specialized Areas**
+: Distributed Systems · Systems Benchmarking · Power Budget Optimization · Performance Analysis
 
-Performance Engineering · Distributed Systems · Cloud Computing · AI/ML Infrastructure · Storage Systems
+**Languages**
+: Python · Java · C++ · Scala · R
 
-## Programming
+**Frameworks &amp; Tools**
+: Pandas · Apache Spark · Docker · Kubernetes · Git
 
-C · C++ · Python · Java · Bash
+**Cloud Platforms**
+: AWS · Azure
 
-## Tools &amp; Platforms
+**Web &amp; DevOps**
+: Nginx · Varnish · Memcached
 
-Linux · Docker · Git · Perf · DTrace · Flamegraphs
+**Databases**
+: MySQL · PostgreSQL · Presto
 
-## Languages
-
-- **English** — Fluent
-- **Bengali** — Native speaker
+**Scripting**
+: Bash
