@@ -11,11 +11,14 @@ description: Professional experience in performance engineering, cloud systems, 
 : Optimizing performance of AIDE (AI Data Engine), a distributed platform for ingesting, cataloging, and serving enterprise storage data for AI workloads.
 
 **Performance and Capacity Engineer** — [Meta Platforms, Inc.](https://about.meta.com/) · Menlo Park, CA _(May 2024 – Jan 2026)_
-: Optimized rack power budgets across AI-inference hardware programs → **$100M/year** data-center OpEx savings; built the standardized budget-optimization framework.
-: Raised GPU power limits for recommendation services → **7% less GPU capacity** at a flat power budget (**$400k/year**).
-: Delivered power budgets for flash-storage racks serving **7.3 EB** (GenAI training) and **9.9 EB** (MySQL and other services).
-: Redesigned the Power Sufficiency Simulator pipeline → higher input accuracy and **77% fewer** Thrift service dependencies.
-: Built host-metric → power-device estimation at **99%+ accuracy** and improved idle-host power estimates by up to **31%**.
+: Optimized rack power budgets for multiple AI-inference hardware programs → **$100M/year** in data-center OpEx savings and a standardized budget-optimization framework across Meta's AI infrastructure hardware programs.
+: Drove cross-functional work to raise the power limit of GPUs used by recommendation services → **7% reduction** in GPU capacity required with no increase in power budget (**$400k/year** benefit).
+: Delivered power budget for flash-storage racks providing **7.3 EB** of storage to support GenAI training.
+: Delivered power budget for flash-storage racks providing **9.9 EB** of storage to support MySQL and other services.
+: Redesigned the Power Sufficiency Simulator pipeline, increasing input accuracy and reducing Thrift service dependencies by **77%**.
+: Created a machine-level power-estimation methodology for power-capped machines, improving power-capping efficiency by **11%** or reducing overage risk by **0.15%**, depending on the scenario.
+: Developed a technique to estimate power at the power-device level from host-level metrics, reaching **99%+ accuracy** and eliminating **0.9%–6%** estimation error across power-device types.
+: Improved idle-host power-usage estimation accuracy by up to **31%**, strengthening rack-level budget planning.
 
 **Research Intern** — [Cloud Operations Research (CORE), Microsoft Research](https://www.microsoft.com/en-us/research/) · Redmond, WA _(May 2022 – Aug 2022)_
 : Designed Kerveros, a novel Azure admission-control system → **95%+ utilization** at **99.9%+ availability** in production; deployed in Azure and published at OSDI 2023.

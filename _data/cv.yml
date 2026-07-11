@@ -58,11 +58,14 @@ cv:
         start_date: 2024-05
         end_date: 2026-01
         highlights:
-          - Optimized rack power budgets across AI-inference hardware programs, yielding $100M/year in data-center OpEx savings and a standardized budget-optimization framework
-          - Raised GPU power limits for recommendation services, cutting required GPU capacity by 7% at a flat power budget ($400k/year benefit)
-          - Delivered power budgets for flash-storage racks serving 7.3 EB (GenAI training) and 9.9 EB (MySQL and other services)
-          - Redesigned the Power Sufficiency Simulator pipeline for higher input accuracy and 77% fewer Thrift service dependencies
-          - Built host-metric to power-device estimation at 99%+ accuracy and improved idle-host power estimates by up to 31%
+          - Optimized rack power budgets for multiple AI-inference hardware programs, yielding $100M/year in data-center OpEx savings and a standardized budget-optimization framework across Meta's AI infrastructure hardware programs
+          - Drove cross-functional work to raise the power limit of GPUs used by recommendation services, cutting required GPU capacity by 7% with no increase in power budget ($400k/year benefit)
+          - Delivered power budget for flash-storage racks providing 7.3 EB of storage to support GenAI training
+          - Delivered power budget for flash-storage racks providing 9.9 EB of storage to support MySQL and other services
+          - Redesigned the Power Sufficiency Simulator pipeline, increasing input accuracy and reducing Thrift service dependencies by 77%
+          - Created a machine-level power-estimation methodology for power-capped machines, improving power-capping efficiency by 11% or reducing overage risk by 0.15%, depending on the scenario
+          - Developed a technique to estimate power at the power-device level from host-level metrics, reaching 99%+ accuracy and eliminating 0.9%-6% estimation error across power-device types
+          - Improved idle-host power-usage estimation accuracy by up to 31%, strengthening rack-level budget planning
 
       - company: Cloud Operations Research (CORE), Microsoft Research
         position: Research Intern
