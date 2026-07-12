@@ -1,0 +1,16 @@
+# Local preview for this repo. Build context is the repo root (..),
+# using the root Dockerfile. Serves at http://localhost:8080/
+# (baseurl is blank in _config.yml, so the site is at the root path).
+services:
+  jekyll:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    command: /srv/jekyll/bin/entry_point.sh
+    ports:
+      - "8080:8080"
+      - "35729:35729"
+    volumes:
+      - ..:/srv/jekyll
+    environment:
+      - JEKYLL_ENV=development
