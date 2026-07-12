@@ -1,0 +1,16 @@
+# Shared inline-style snippets for the timeline UI used by the
+# Experience, Education, and Skills pages. Defined once here and
+# referenced via {{ site.data.timeline.* }} so the pages stay free of
+# repeated CSS. Colors use al-folio theme CSS vars (with fallbacks) so
+# the timeline adapts to light/dark mode.
+grid: "display:grid;grid-template-columns:3.5rem 1fr;gap:0;"
+year: "text-align:right;padding-right:1rem;font-weight:700;color:var(--global-theme-color,#b509ac);"
+rail: "border-left:2px solid var(--global-divider-color,#e5e7eb);padding:0 0 1.75rem 1.5rem;position:relative;"
+rail_last: "border-left:2px solid var(--global-divider-color,#e5e7eb);padding:0 0 .25rem 1.5rem;position:relative;"
+dot: "position:absolute;left:-7px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--global-theme-color,#b509ac);"
+date: "font-size:.78rem;letter-spacing:.05em;text-transform:uppercase;color:var(--global-text-color-light,#9ca3af);font-weight:600;"
+title: "font-size:1.1rem;font-weight:700;margin:.1rem 0;"
+loc: "font-size:.9rem;color:var(--global-text-color-light,#9ca3af);margin-bottom:.5rem;"
+skills_wrap: "margin-left:3.5rem;"
+skill_title: "font-size:1.05rem;font-weight:700;margin-bottom:.5rem;"
+pill: "display:inline-block;padding:.2rem .6rem;margin:0 .35rem .4rem 0;border:1px solid var(--global-divider-color,#e5e7eb);border-radius:1rem;font-size:.85rem;color:var(--global-text-color-light,#6b7280);"

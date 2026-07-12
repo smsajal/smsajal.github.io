@@ -1,0 +1,14 @@
+# Slim variant: pulls a prebuilt image instead of building locally.
+# bin/entry_point.sh runs `bundle install` at container start to pick up
+# this repo's v1 Gemfile. Serves at http://localhost:8080/.
+services:
+  jekyll:
+    image: amirpourmand/al-folio:slim
+    command: /srv/jekyll/bin/entry_point.sh
+    ports:
+      - "8080:8080"
+      - "35729:35729"
+    volumes:
+      - ..:/srv/jekyll
+    environment:
+      - JEKYLL_ENV=development
