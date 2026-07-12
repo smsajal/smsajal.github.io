@@ -26,12 +26,12 @@ skills:
 
 <div style="{{ t.skills_wrap }}">
 {% for cat in page.skills %}
-  <div style="{% if forloop.last %}{{ t.rail_last }}{% else %}{{ t.rail }}{% endif %}">
-    <span style="{{ t.dot }}"></span>
-    <div style="{{ t.skill_title }}">{{ cat.name }}</div>
-    <div>
-      {% for item in cat.items %}<span style="{{ t.pill }}">{{ item }}</span>{% endfor %}
-    </div>
-  </div>
+<div style="{% if forloop.last %}{{ t.rail_last }}{% else %}{{ t.rail }}{% endif %}">
+<span style="{{ t.dot }}"></span>
+<div style="{{ t.skill_title }}">{{ cat.name }}</div>
+<div>
+{% for item in cat.items %}<span style="{{ t.pill }}">{{ item }}</span>{% endfor %}
+</div>
+</div>
 {% endfor %}
 </div>

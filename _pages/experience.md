@@ -66,15 +66,14 @@ experience:
 
 {% assign t = site.data.timeline %}
 {% for job in page.experience %}
-
 <div style="{{ t.grid }}">
-  <div style="{{ t.year }}">{{ job.year }}</div>
-  <div style="{% if forloop.last %}{{ t.rail_last }}{% else %}{{ t.rail }}{% endif %}">
-    <span style="{{ t.dot }}"></span>
-    <div style="{{ t.date }}">{{ job.dates }}</div>
-    <div style="{{ t.title }}">{{ job.role }} — {% if job.url %}<a href="{{ job.url }}">{{ job.org }}</a>{% else %}{{ job.org }}{% endif %}</div>
-    <div style="{{ t.loc }}">{{ job.location }}</div>
-    {{ job.highlights | markdownify }}
-  </div>
+<div style="{{ t.year }}">{{ job.year }}</div>
+<div style="{% if forloop.last %}{{ t.rail_last }}{% else %}{{ t.rail }}{% endif %}">
+<span style="{{ t.dot }}"></span>
+<div style="{{ t.date }}">{{ job.dates }}</div>
+<div style="{{ t.title }}">{{ job.role }} — {% if job.url %}<a href="{{ job.url }}">{{ job.org }}</a>{% else %}{{ job.org }}{% endif %}</div>
+<div style="{{ t.loc }}">{{ job.location }}</div>
+{{ job.highlights | markdownify }}
+</div>
 </div>
 {% endfor %}

@@ -28,15 +28,14 @@ education:
 
 {% assign t = site.data.timeline %}
 {% for edu in page.education %}
-
 <div style="{{ t.grid }}">
-  <div style="{{ t.year }}">{{ edu.year }}</div>
-  <div style="{% if forloop.last %}{{ t.rail_last }}{% else %}{{ t.rail }}{% endif %}">
-    <span style="{{ t.dot }}"></span>
-    <div style="{{ t.date }}">{{ edu.dates }}</div>
-    <div style="{{ t.title }}">{{ edu.role }} — {% if edu.url %}<a href="{{ edu.url }}">{{ edu.org }}</a>{% else %}{{ edu.org }}{% endif %}</div>
-    <div style="{{ t.loc }}">{{ edu.location }}</div>
-    {{ edu.highlights | markdownify }}
-  </div>
+<div style="{{ t.year }}">{{ edu.year }}</div>
+<div style="{% if forloop.last %}{{ t.rail_last }}{% else %}{{ t.rail }}{% endif %}">
+<span style="{{ t.dot }}"></span>
+<div style="{{ t.date }}">{{ edu.dates }}</div>
+<div style="{{ t.title }}">{{ edu.role }} — {% if edu.url %}<a href="{{ edu.url }}">{{ edu.org }}</a>{% else %}{{ edu.org }}{% endif %}</div>
+<div style="{{ t.loc }}">{{ edu.location }}</div>
+{{ edu.highlights | markdownify }}
+</div>
 </div>
 {% endfor %}
