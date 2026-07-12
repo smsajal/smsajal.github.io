@@ -21,8 +21,8 @@ experience:
     url: "https://about.meta.com/"
     location: "Menlo Park, CA"
     highlights: |
-      - Optimized rack power budgets for multiple AI-inference hardware programs → **$100M/year** in data-center OpEx savings and a standardized budget-optimization framework across Meta's AI infrastructure hardware programs.
-      - Drove cross-functional work to raise the power limit of GPUs used by recommendation services → **7% reduction** in GPU capacity required with no increase in power budget (**$400k/year** benefit).
+      - Optimized rack power budgets for multiple AI-inference hardware programs resulting in **$100M/year** in data-center OpEx savings and a standardized budget-optimization framework across Meta's AI infrastructure hardware programs.
+      - Drove cross-functional work to raise the power limit of GPUs used by recommendation services resulting in **7% reduction** in GPU capacity required with no increase in power budget (**$400k/year** benefit).
       - Delivered power budget for flash-storage racks providing **7.3 EB** of storage to support GenAI training.
       - Delivered power budget for flash-storage racks providing **9.9 EB** of storage to support MySQL and other services.
       - Redesigned the Power Sufficiency Simulator pipeline, increasing input accuracy and reducing Thrift service dependencies by **77%**.
