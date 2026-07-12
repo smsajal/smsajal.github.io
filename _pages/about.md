@@ -2,8 +2,6 @@
 layout: about
 title: About
 permalink: /
-nav: true
-nav_order: 1
 subtitle: Performance Engineer at <a href="https://www.netapp.com/" target="_blank">NetApp</a> · Systems Researcher · Ph.D. Penn State
 
 profile:
@@ -18,7 +16,7 @@ selected_papers: true
 social: true
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 5
 
@@ -28,10 +26,10 @@ latest_posts:
   limit: 3
 ---
 
-I am a Performance Engineer at [NetApp](https://www.netapp.com/), where I work on performance benchmarking and optimization of Core Storage System features. Previously, I was a Performance and Capacity Engineer at [Meta](https://about.meta.com/), where I worked on power efficiency and sufficiency in Meta's hyperscaler infrastructure, spanning AI inference and storage systems.
+I am a Performance Engineer at [NetApp](https://www.netapp.com/), where I work on performance benchmarking and optimization of Core Storage System features. Before NetApp, I was a Performance and Capacity Engineer at [Meta](https://about.meta.com/), where I optimized power efficiency and sufficiency across hyperscale AI-inference and storage infrastructure — work that delivered **$100M+/year** in data-center savings.
 
-I received my Ph.D. in Computer Science and Engineering from [Pennsylvania State University](https://www.psu.edu/) in 2024, advised by [Prof. Timothy Zhu](https://www.cse.psu.edu/~tzhu/) and [Prof. Bhuvan Urgaonkar](https://www.cse.psu.edu/~buu1/). My dissertation, _"Improving the Fidelity of Trace-Driven Experiments in Cloud Computing Systems,"_ introduced a family of trace scaling techniques to enable realistic performance benchmarking of user-facing real-world systems. My work on cloud admission control ([Kerveros](https://www.usenix.org/conference/osdi23/presentation/sajal)) has been deployed in production at Microsoft Azure.
+I specialize in **large-scale systems performance**, **cloud & AI infrastructure**, and **power and capacity optimization** — turning noisy production signals into measurable efficiency gains. My work spans GPU capacity planning, exabyte-scale storage, cloud admission control, and the benchmarking methodology used to evaluate all of it.
 
-My research sits at the intersection of **cloud systems**, **performance engineering**, and **AI infrastructure**. I have published at top systems venues — [OSDI](https://www.usenix.org/conference/osdi23), [EuroSys](https://2024.eurosys.org/), [ISCA](https://iscaconf.org/isca2026/), and [ACM TOCS](https://dl.acm.org/journal/tocs) — and my work has earned a [Best Paper Runner-Up award](/assets/pdf/eurosys24-traceupscaler.pdf) at EuroSys 2024.
+I hold a Ph.D. in Computer Science and Engineering from [Pennsylvania State University](https://www.psu.edu/). My research on cloud admission control ([Kerveros](https://www.usenix.org/conference/osdi23/presentation/sajal)) was deployed in production at **Microsoft Azure**, and my work on trace-driven system evaluation earned a [Best Paper Runner-Up](/assets/pdf/eurosys24-traceupscaler.pdf) at EuroSys 2024.
 
-**Research areas:** cloud computing · distributed systems · performance engineering · AI/ML infrastructure · systems evaluation methodology
+**Focus areas:** performance engineering · cloud & AI infrastructure · power & capacity optimization · large-scale systems evaluation
