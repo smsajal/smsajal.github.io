@@ -26,7 +26,7 @@ latest_posts:
   limit: 3
 ---
 
-I am a Performance Engineer at [NetApp](https://www.netapp.com/), where I work on performance benchmarking and optimization of core storage systems for AI-era data platforms. Before NetApp, I was a Performance and Capacity Engineer at [Meta](https://about.meta.com/), where I optimized power efficiency and sufficiency across hyperscale AI-inference and storage infrastructure — work that delivered **$100M+/year** in data-center savings.
+I am a Performance Engineer at [NetApp](https://www.netapp.com/), where I work on performance benchmarking and optimization of Core Storage System features. Before NetApp, I was a Performance and Capacity Engineer at [Meta](https://about.meta.com/), where I optimized power efficiency and sufficiency across hyperscale AI-inference and storage infrastructure — work that delivered **$100M+/year** in data-center savings.
 
 I specialize in **large-scale systems performance**, **cloud & AI infrastructure**, and **power and capacity optimization** — turning noisy production signals into measurable efficiency gains. My work spans GPU capacity planning, exabyte-scale storage, cloud admission control, and the benchmarking methodology used to evaluate all of it.
 
